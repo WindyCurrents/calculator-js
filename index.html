@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="text">This shall be known as a calculator!</div>
+        <div id="screen">0</div>
+        <div id="keyboard">
+            <div class="keyboardbutton" onclick="EnterToScreen(0)" id="num0">0</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(1)" id="num1">1</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(2)" id="num2">2</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(3)" id="num3">3</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(4)" id="num4">4</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(5)" id="num5">5</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(6)" id="num6">6</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(7)" id="num7">7</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(8)" id="num8">8</div>
+            <div class="keyboardbutton" onclick="EnterToScreen(9)" id="num9">9</div>
+            <div class="keyboardbutton" onclick="ClearScreen()" id="clear">Clear</div>
+            <div class="keyboardbutton" onclick="CondensedPrepare('add')" id="add">+</div>
+            <div class="keyboardbutton" onclick="CondensedPrepare('subtract')" id="subtract">-</div>
+            <div class="keyboardbutton" onclick="CondensedPrepare('multiply')" id="multiply">*</div>
+            <div class="keyboardbutton" onclick="CondensedPrepare('powerthingy')" id="powerthingy">ˆ</div>
+            <div class="keyboardbutton" onclick="Equals()" id="equals">=</div>
+        </div>
+    </div>
+</body>
+</html>

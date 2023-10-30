@@ -1,2 +1,2 @@
 # calculator-js
-Bit of a fork of later-on-converter, makes it a decimal calculator
+decimal calculator in JS. wow.
